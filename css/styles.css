@@ -1,0 +1,11 @@
+body {
+  padding: 30px;
+  margin:20px;
+}
+
+#story {
+  display: none;
+}
+results {
+  display: none;
+}

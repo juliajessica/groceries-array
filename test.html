@@ -1,0 +1,28 @@
+$(document).ready(function() {
+  $("#groceryForum").submit(function(event) {
+    event.preventDefault();
+    var items = ["item1", "item2", "item3", "item4", "item5"];
+    var groceries = [];
+
+    items === groceries;
+    groceries.sort();
+
+    var foods = items.map(function(food) {
+      return food.toUppercase();
+    });
+
+    // items.forEach(function(item) {
+    //   var userInput = $("input#" + item).val();
+    //   $("." + item).text(userInput);
+    // //  userInput.sort());
+    // });
+
+    // var newItems = items.map(function(item) {
+    //   return item.toUpperCase();
+    // });
+
+
+    alert(foods);
+
+  });
+});
